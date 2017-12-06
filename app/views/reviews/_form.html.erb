@@ -11,10 +11,7 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :rating %>
-    <%= form.number_field :rating, id: :review_rating %>
-  </div>
+  <div id="star-rating"></div>
 
   <div class="field">
     <%= form.label :comment %>
@@ -25,3 +22,10 @@
     <%= form.submit %>
   </div>
 <% end %>
+
+<script type="text/javascript" charset="utf-8">
+    $('#star-rating').raty({
+        path: 'https://s3.amazonaws.com/ezyelpdemo/stars',
+        scoreName: 'review[rating]'
+    })
+</script>
