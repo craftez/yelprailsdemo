@@ -1,0 +1,30 @@
+.navbar.bg-light {
+  background: #b80b02 !important;
+  .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .navbar-brand {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Hobo Std";
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 -2px 0 #fff, 0 2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  }
+}
+
+.jumbotron {
+  background-color: #fdf8e1;
+  border: 1px solid #f2cb3b;
+
+  h2 {
+    color: #c41200;
+    font-weight: bold;
+    font-size: 2em;
+  }
+}
+
+.container-fluid {
+  padding: 10px 120px;
+}
